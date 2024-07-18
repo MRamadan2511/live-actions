@@ -1,8 +1,9 @@
-name: run live_ofd.py
+name: run live_ofd
 
 on:
   schedule:
     - cron: '*/5 * * * *' # Every 5 minutes
+  workflow_dispatch:
 
 jobs:
   build:
