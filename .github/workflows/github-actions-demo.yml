@@ -1,4 +1,4 @@
-name: run eg_live_ofd.py
+name: run live_ofd.py
 
 on:
   schedule:
@@ -28,4 +28,4 @@ jobs:
         run: pip list
 
       - name: run script
-        run: python eg_live_ofd.py
+        run: python live_ofd.py
